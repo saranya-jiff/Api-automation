@@ -89,7 +89,7 @@ Follow these instructions if you prefer to run it in IntelliJ
 * Click the **refresh icon** in the **maven projects** tab to refresh the view.
 * Wait for the IDE to index everything
 * Choose **build** > **rebuild project** (there should be no build errors)
-* While consul is running, double click on **Maven Projects** > **Operator Gateway Microservice** > **Plugins** > **spring-boot* > **spring-boot:run -Dspring.config.location=dev-config/<CONFIG-FILE-NAME>.yml** (which should run the microservice locally if you've configured everything properly)
+* While consul is running, double click on **Maven Projects** > **Operator Gateway Microservice** > **Plugins** > **spring-boot* > **spring-boot:run -Dspring.config.location=dev-config/ / <CONFIG-FILE-NAME / >.yml** (which should run the microservice locally if you've configured everything properly)
 
 Note: Value to `-Dspring.config.location` will be path to config file under `dev-config/`
 
