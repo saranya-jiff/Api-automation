@@ -1,1 +1,1 @@
-**spring-boot:run -Dspring.config.location=dev-config/<CONFIG-FILE-NAME>.yml**
+* While consul is running, double click on **Maven Projects** > **Operator Gateway Microservice** > **Plugins** > **spring-boot* > **spring-boot:run -Dspring.config.location=dev-config/<CONFIG-FILE-NAME>.yml** (which should run the microservice locally if you've configured everything properly)
